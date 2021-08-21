@@ -6,8 +6,14 @@
             <h1 class="IHAGI_logo">WCOMEWGO</h1>
         </div>
         <div class="where_header_button">
-            <a href="{% url 'articleapp:list' %}">
-                <span class="IHAGI_logo">About Us</span>
+            <a href="{% url 'accountapp:about_us' %}" style="text-decoration-line: none;">
+                <span class="IHAGI_logo">ABOUT US</span>
+            </a>
+            <a href="{% url 'accountapp:album' %}" style="text-decoration-line: none;">
+                <span class="IHAGI_logo">ALBUMS</span>
+            </a>
+            <a href="{% url 'articleapp:list' %}" style="text-decoration-line: none;">
+                <span class="IHAGI_logo">PHOTOS</span>
             </a>
         </div>
     </div>
