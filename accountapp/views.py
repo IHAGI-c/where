@@ -29,3 +29,7 @@ def about_us(request):
 
 def album(request):
     return render(request, 'accountapp/album.html')
+
+
+def main_(request):
+    return render(request, 'accountapp/main.html')
