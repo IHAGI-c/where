@@ -3,16 +3,82 @@
 {% load static %}
 
 {% block content %}
-    <div class="bg my-5" style="vertical-align: middle;">
+    <div class="bg my-4">
         <video muted autoplay loop>
-            <source src="{% static 'vid/배경.mp4' %}" type="video/mp4">
+{#            <source src="{% static 'vid/배경.mp4' %}" type="video/mp4">#}
+            <source src="{% static 'vid/Logo/wcomewgo 홈페이지 메인.mp4' %}" type="video/mp4">
          </video>
-          <div class="text">
-            <h1 style="font-size: calc(.6rem + 2vw); color: white; text-align: center;!important;">
-                <I>Where Come Where Go ?</I></h1>
-            <p style="margin: 4vw; font-size: calc(.1rem + 1vw) !important;">
-                We left it in space.</p>
-          </div>
+{#          <div class="text" style="vertical-align: center">#}
+{#            <img src="{% static 'vid/Logo/wcomewgo 그래픽만.png' %}" alt=""#}
+{#                        style="position: absolute; width: 100%; top: 50%; left: 50%;#}
+{#                        transform: translate(-50%,-50%); vertical-align: center;>">#}
+{#          </div>#}
+{#          <div>#}
+{#            <h1 style="font-size: calc(.6rem + 2vw); color: white; text-align: center;!important;">#}
+{#                <I>Where Come Where Go ?</I></h1>#}
+{#            <p style="margin: 4vw; font-size: calc(.1rem + 1vw) !important;">#}
+{#                We left it in space.</p>#}
+{#          </div>#}
+    </div>
 
+    <hr style="margin: 0 0 5rem 0">
+
+    <div style="margin: 0 2rem 10rem 2rem">
+
+        <h4 class="IHAGI_logo" style="font-size: 1.9rem"><B> 어디서왔고어디로가는가 </B></h4>
+        <p style="margin: 0 0 4rem .8rem; vertical-align: center">
+            <a href="https://www.instagram.com/wcomewgo/" target='_blank'>
+                <span><i class="bi bi-instagram"></i></span>
+                <I> wherecomewherego </I>
+            </a>
+        </p>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" style="margin-bottom: 2.5rem">
+                    <h4 class="IHAGI_logo" style="margin-bottom: 3.5rem"><B> - Members </B></h4>
+                    <div style="margin-left: 1rem">
+                        <h4 class="my-3 IHAGI_logo" style="font-size: 1.1rem"> 비츠로 (bitzro) </h4>
+                         <p style="margin: 0 0 2rem .5rem; vertical-align: center; font-size: .7rem">
+                             <a href="https://www.instagram.com/juyubi/" target='_blank'>
+                                <span><i class="bi bi-instagram"></i></span>
+                                <I> juyubi </I>
+                             </a>
+                        </p>
+                        <h4 class="my-3 IHAGI_logo" style="font-size: 1.1rem"> 전우뇌 (jeonwoonoe) </h4>
+                        <p style="margin: 0 0 2rem .5rem; vertical-align: center; font-size: .7rem">
+                            <a href="https://www.instagram.com/jeonwoonoe/" target='_blank'>
+                                <span><i class="bi bi-instagram"></i></span>
+                                <I> jeonwoonoe </I>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="margin-bottom: 2.5rem">
+                    <h4 class="IHAGI_logo" style="margin-bottom: 3.5rem"><B> - Logo Design </B></h4>
+                    <div style="margin-left: 1rem">
+                        <h4 class="my-3 IHAGI_logo" style="font-size: 1.1rem"> 김민하 (keemmeenha) </h4>
+                         <p style="margin: 0 0 2rem .5rem; vertical-align: center; font-size: .7rem">
+                             <a href="https://www.instagram.com/keemmeenha.mmn/" target='_blank'>
+                                <span><i class="bi bi-instagram"></i></span>
+                                <I> keemmeenha.mmm</I>
+                             </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="IHAGI_logo" style="margin-bottom: 3.5rem"><B> - Web Develop </B></h4>
+                    <div style="margin-left: 1rem">
+                        <h4 class="my-3 IHAGI_logo" style="font-size: 1.1rem"> 신하섬 (IHAGI) </h4>
+                         <p style="margin: 0 0 0 .5rem; vertical-align: center; font-size: .7rem">
+                             <a href="https://www.instagram.com/nnakeseomnoiz/" target='_blank'>
+                                <span><i class="bi bi-instagram"></i></span>
+                                <I> nnakeseomnoiz </I>
+                             </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}

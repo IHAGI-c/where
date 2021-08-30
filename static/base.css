@@ -85,13 +85,14 @@ body {
 }
 .bg {
   width: 100%;
-  height: 120%;
+  height: 100%;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
 }
 video {
-  width: 120%;
+  width: 100%;
+  object-fit: cover;
 }
 .text {
   position: absolute;
@@ -114,3 +115,4 @@ a {
 a:hover {
     color: #333;
 }
+
