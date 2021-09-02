@@ -67,3 +67,9 @@ db.sqlite3
 .idea/
 
 __pycache__/
+
+static/vid/
+
+wcomewgo.pem
+
+where.pem
