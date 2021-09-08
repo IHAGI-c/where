@@ -68,10 +68,8 @@ db.sqlite3
 
 __pycache__/
 
-static/vid/
-
-wcomewgo.pem
-
 where.pem
 
 Dockerfile
+
+nginx.conf
